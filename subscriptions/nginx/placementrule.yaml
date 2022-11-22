@@ -20,7 +20,7 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
   name: nginx-production
-  namespace: nginx
+  #namespace: nginx
   labels:
     app: nginx-sample
 spec:
