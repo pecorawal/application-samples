@@ -4,8 +4,7 @@ kind: PlacementRule
 metadata:
   labels:
       app: book-import
-  name: book-import-placement-0
-  namespace: book-import
+  name: book-import-placement-development
 spec:
   clusterSelector:
     matchLabels:
@@ -20,7 +19,7 @@ metadata:
   labels:
       app: book-import
   name: book-import-placement-prod
-  namespace: book-import-prod
+  namespace: book-import
 spec:
   clusterSelector:
     matchLabels:
